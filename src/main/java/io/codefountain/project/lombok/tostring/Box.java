@@ -9,6 +9,7 @@ import lombok.ToString;
 @Setter
 public abstract class Box {
 
+    @ToString.Exclude
     private double height;
     private double width;
 }
